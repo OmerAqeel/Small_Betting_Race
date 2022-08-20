@@ -5,7 +5,8 @@ in_race = False
 
 screen = Screen()
 screen.setup(width=700, height=600)
-user_bet = screen.textinput(title= "Make your bet !", prompt="Which turtle will win the race? Enter a color: ")
+user_bet = screen.textinput(title= "Make your bet !", prompt="Which turtle will win the race? \n red \n orange \n yellow \n green \n blue \n purple \n"
+                                                             "Enter a color: ")
 
 y_coordinates = [-50, 0, 50, 100, 150, 200]
 colours = ["red", "orange", "yellow", "green", "blue", "purple"]
